@@ -46,11 +46,20 @@ ul li{list-style: none;}
 /* header部分 */
 .top{height: 45px;background: #000;color: #fff}
 .ico-home{float: left;background: #f0f2f2;width: 60px;height: 60px;padding-top: 15px;border-radius: 10px 0 0 10px}
-.header-area{height: 690px;background: url('../img/bg-01.jpg') no-repeat center center;}
+.header-area{height: 690px;}
+.bg-01{background: url('../img/bg-01.jpg') no-repeat center top;}
 .ipt-search{border-radius: 4px;border:0;padding-left: 10px;margin-left: 10px;height: 25px;line-height: 25px;margin-top: 10px;color: #333}
 .nav-bar{margin-top: 60px;height: 60px;background: #fff;border-radius: 10px;}
 .nav ul{text-align: center;}
 .nav ul li{float: left;height: 60px;line-height: 60px;width: 14%;}
 .nav ul li a{color: #333;font-size: 16px;}
 .nav li.logo-circle{width: 130px;height: 130px;border-radius: 50%;background: #bcc2c5;padding-top: 20px;position: relative;top: -40px}
+.mobile-menu{height: 60px;background: #fff;}
+.m-nav{display: block; top: 0; width: 30px; height: 60px;padding: 20px 0;float: right;cursor: pointer;position: relative;margin-right: 15px;}
+.m-nav span{display: block;  width: 100%; height: 4px; background: #333; border-radius: 2px; position: absolute; top: 15px; transition: all .5s;}
+.m-nav span:nth-child(2) { top: 26px;}
+.m-nav span:nth-child(3) { top: 36px;}
+.m-nav span.active:nth-child(1) {transform: translateY(7px) rotate(45deg); transition: all .5s;}
+.m-nav span.active:nth-child(3) {transform: translateY(-9px) rotate(-45deg);transition: all .5s;}
+.foot-txt{line-height: 1.5;font-size: 14px;}
 .footer-area{padding-top: 60px;background: #bcc2c5;height: 246px;}
