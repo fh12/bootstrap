@@ -2,6 +2,10 @@ body {
   background-color: #E1E1E1;
 }
 
+.lineheight29 {
+  line-height: 29px;
+}
+
 .content {
   margin: 70px auto 100px auto;
 }
@@ -9,4 +13,14 @@ body {
 .content-img {
   background-color: #ffffff;
   border-radius: 20px;
+}
+
+.mt140 {
+  margin-top: 140px;
+}
+
+@media (max-width: 768px) {
+  .content-img {
+    margin-top: 40px;
+  }
 }
