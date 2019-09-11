@@ -1,6 +1,6 @@
-body {background: #fff;	font-size: 16px;color: #333;font-family: "Microsoft YaHei";}
+body {font-size: 14px;color: #333;box-sizing: border-box;}
 strong {font-weight: 500;}
-a,a:hover,a:focus {text-decoration: none;	-o-transition: all .2s;	-moz-transition: all .2s;-webkit-transition: all .2s;-ms-transition: all .2s;transition: all .2s;outline: none;}
+a,a:hover,a:focus {text-decoration: none;outline: none;}
 img {max-width: 100%;}
 .fl{float: left;}
 .fr{float: right;}
@@ -42,3 +42,15 @@ ul li{list-style: none;}
 .bg-gray{background: #dcdcdc;}
 .wrapper{max-width: 1200px;margin:0 auto;}
 .wow { visibility: hidden; }
+
+/* header部分 */
+.top{height: 45px;background: #000;color: #fff}
+.ico-home{float: left;background: #f0f2f2;width: 60px;height: 60px;padding-top: 15px;border-radius: 10px 0 0 10px}
+.header-area{height: 690px;background: url('../img/bg-01.jpg') no-repeat center center;}
+.ipt-search{border-radius: 4px;border:0;padding-left: 10px;margin-left: 10px;height: 25px;line-height: 25px;margin-top: 10px;color: #333}
+.nav-bar{margin-top: 60px;height: 60px;background: #fff;border-radius: 10px;}
+.nav ul{text-align: center;}
+.nav ul li{float: left;height: 60px;line-height: 60px;width: 14%;}
+.nav ul li a{color: #333;font-size: 16px;}
+.nav li.logo-circle{width: 130px;height: 130px;border-radius: 50%;background: #bcc2c5;padding-top: 20px;position: relative;top: -40px}
+.footer-area{padding-top: 60px;background: #bcc2c5;height: 246px;}
