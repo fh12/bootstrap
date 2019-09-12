@@ -7,20 +7,25 @@ body {
 }
 
 .content {
-  margin: 70px auto 100px auto;
+  font-size: 16px;
+  padding-bottom: 70px;
 }
 
-.content-img {
+.aboutus-img {
   background-color: #ffffff;
   border-radius: 20px;
 }
 
-.mt140 {
-  margin-top: 140px;
+.mt160 {
+  margin-top: 160px;
 }
 
 @media (max-width: 768px) {
-  .content-img {
+  .aboutus-img {
     margin-top: 40px;
   }
+}
+
+.bg-02 {
+  background: url('../img/bg-02.jpg') no-repeat center top;
 }
