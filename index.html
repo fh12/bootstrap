@@ -23,26 +23,29 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+     <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->   
     <!-- Header Area Start -->
     <header class="header-area bg-01">
         <div class="top hidden-xs">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-md-offset-7 tar">
-                        Search<input type="text" class="ipt-search" placeholder="Text input">
+                        Search<input type="text" class="ipt-search" placeholder="">
                         <i class="fa fa-search ml10"></i><span class="ml20">CH</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="wrapper overlay-light-1 fixed header-sticky">
+        <div class="nav-wrap wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 hidden-xs">
-                        <div class="nav-bar text-right">
-                            <span class="ico-home tac"><img src="img/ico-home.jpg" alt=""></span>
-                            <nav class="ml10 nav">
+                        <div class="nav-bar tac">
+                            <a href="index.html" class="ico-home tac"><img src="img/ico-home.jpg" alt=""></a>
+                            <nav class="nav">
                                 <ul>
                                     <li><a href="index.html">ABOUT US</a></li>
                                     <li><a href="about.html">PRODUCTS</a></li>
@@ -57,13 +60,274 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu hidden-lg hidden-md">
+            <div class="mobile-menu hidden-lg hidden-md hidden-sm">
                 <div class="m-nav"><span class=""></span><span></span><span class=""></span></div>
+                <div class="icologo"><img src="img/logo.png" alt=""></div>
+                <ul class="menu">
+                    <li><a href="index.html">ABOUT US</a></li>
+                    <li><a href="about.html">PRODUCTS</a></li>
+                    <li><a href="portfolio.html">CATALOGUE</a></li>
+                    <li><a href="blog.html">TRADE SHOW</a></li>
+                    <li><a href="#">NEW CENTER</a></li>
+                    <li><a href="contact.html">DIY CORNER</a></li>
+                </ul>
             </div>
+            
+        </div>
+        <div class="banner tac">
+            <div><img src="img/banner-text.png" alt="" width="60%" style="max-width: 680px"></div>
+            <div class="mt30 buttonfx btn-green"><a class="shutter-in-horizontal green-border-2" href="#">VIEW PRODUCTS HERE</a></div>
         </div>
     </header>
+    <section class="content">
+        <div class="index-sec1 hidden-xs">
+            <div class="imgView">
+                <div class="img-box"><img src="img/index-01.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="index-sec2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-4 col-xs-12">
+                        <h2 class="mt30">ABOUT US</h2>
+                        <p>Yangjiang Sunshine Houseware Company Limited began in 2006 under the name Yangjiang Flying Houseware Company Limited selling Housewares. Since then we have had a name changed. We provide  high quality products and a full service solution for houseware brands and importers.</p>
+                        <p>We collaborate closely with our customers to guide them from OEM, order follow up, quality control,  packaging , shipping and documentation. We have in-depth knowledge in every stage of the kitchenware production process and we leverage our skills and network to meet customers’ needs.</p>
+                        <p>The kitchen is one of the most important gathering rooms in the home, which is why you need the right kitchen utensils and appliances to create an inviting atmosphere. Whether you create meals for a large family or your are cooking for two, the Sunshine Houseware Co.,ltd. has everything you need to create the perfect meal. </p>
+                        <p>Sunshine offers a growing selection of kitchen utensils designed to make your life easier. Fill your kitchen with the aroma of delicious food cooked with ease using one of the quality kitchen utensils from Sunshine Houseware Company limited. 
+                        They say that home is where the heart is, and the kitchen is the heart of every home. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-sec3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt20">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <h4>OUR COMPANY</h4>
+                                <p class="mt15">Sunshine Limited is a leading supplier of kitchenware and housewares, offering brands and importers worldwide a full service solution for their buying needs. Our expertise ranges from concept and design through to sourcing, execution, inspection, shipping and more</p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 tac">
+                                <img src="img/a.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt20">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <h4>COMMUNITY</h4>
+                                <p class="mt15">We care deeply about the communities between our customers. We believe that client service is at the core of any successful business relationship. When cooperate with SUNSHINE, you would have a dedicated service team to work with on a daily basis from quotation, sample arrangement, order following, shipment, after-sale service. You would be supported on all aspects. </p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 tac">
+                                <img src="img/b.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt20">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <h4>OEM</h4>
+                                <p class="mt15">Our factory was founded on 2004 covering more than 10,000 square meters specialzing in manufacturing kitchenwares and housewares with advanced production equipments and professional production skills. The factory has around 200 workers including 5 professional technicians and 10 QC members with an average of 8 years experience each. The factory passed BSCI audit and keep auditing.  </p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 tac">
+                                <img src="img/c.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt20">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <h4>QUALITY CONTROL</h4>
+                                <p class="mt15">We take a hand on approach to every order. We have a rigid quality control process in place and our specialised inspection team work carefully to ensure every order is produced to customer’s standards. We consistently monitor progress during the production cycle and will complete orders through a defined inspection process. We have a thorough Quality Management System that is both documented and audited with inspections utilising AQL standars for consistency. </p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 tac">
+                                <img src="img/d.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt20">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <h4>SCOURCING</h4>
+                                <p class="mt15">We have a strong and experienced scourcing team. We are able to match your requirement for sourcing variety kitchen gadgets and housewares. We empower small and medium-sized businesses to reach millions of customers.</p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 tac">
+                                <img src="img/e.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt20">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                <h4>MISSION</h4>
+                                <p class="mt15">Since day one we have strived to be the Earth’s most customer centric company, so we’re always excited to be recognized for the work we do on behalf of customers.</p>
+                                <p>Our aim is to provide best in class service, product expertise and a seamless buying experience for our customers, from concept to execution.</p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 tac">
+                                <img src="img/f.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-sec4"></div>
+        <div class="index-sec5">
+            <div class="wrapper">
+               <div class="tit-tag">HOT SALE PRODUCTS</div>
+                <p class="pd20">Sunshine offers a growing selection of kitchen utensils designed to make your life easier. Fill your kitchen with the aroma of delicious food cooked with ease using one of the quality kitchen utensils from Sunshine Houseware Company limited.  <a href="" class="link-more">&nbsp;LEARN MORE</a> </p> 
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/1.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/2.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/3.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/1.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/2.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/3.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/1.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="proList">
+                            <div class="proImg"><a href=""><img src="img/2.jpg" alt="" width="100%"></a></div>
+                            <div class="img-txt">
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                                <p>A small colour television.</p>
+                            </div>
+                            <div class="tar pd10"><a href="" class="c-red">MORE</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-sec6">
+            <h2 class="tac mt30">“ SUNSHINE'S CREATIVE CORNER ”</h2>
+            <p class="pd20 tac">DO-IT-YOURSELF FOLLOWING YOUR HEART. EVERYDAY INGENUITY THAT'S A JOY TO USE. </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="">
+                            <div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
+                            <div class="mt20 tac"><a href="" class="diyBtn">we expected to see</a></div>
+                            <div class="mt20 img-txt">
+                                <p>Sadly, this was actually one of the news headlines we expected to see this year.Sadly, this was actually one of the news headlines this year.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="">
+                            <div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
+                            <div class="mt20 tac"><a href="" class="diyBtn">we expected to see</a></div>
+                            <div class="mt20 img-txt">
+                                <p>Sadly, this was actually one of the news headlines we expected to see this year.Sadly, this was actually one of the news headlines this year.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="">
+                            <div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
+                            <div class="mt20 tac"><a href="" class="diyBtn">we expected to see</a></div>
+                            <div class="mt20 img-txt">
+                                <p>Sadly, this was actually one of the news headlines we expected to see this year.Sadly, this was actually one of the news headlines this year.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
+                        <div class="">
+                            <div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
+                            <div class="mt20 tac"><a href="" class="diyBtn">we expected to see</a></div>
+                            <div class="mt20 img-txt">
+                                <p>Sadly, this was actually one of the news headlines we expected to see this year.Sadly, this was actually one of the news headlines this year.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Header Area End -->
     <!-- Background Area Start -->
+    
+    
     <!-- Blog Area End -->
     <!-- Footer Area Start -->
     <footer class="footer-area overlay-6">
@@ -73,16 +337,18 @@
                     <img src="img/logo.png" alt="">
                 </div>
                 <div class="col-lg-8 col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1 tac">
-                    <p class="foot-txt">YANGJIANG SUNSHINE HOUSEWARE  CO.,LTD.</p>
-                    <p class="foot-txt">TEL: 86-662-3227699<span>E-MAIL: angel@yj-sunshine.com </span><span>FAX: 86-662-3227655</span></p>
-                    <p class="foot-txt"> NO. 21 BAIYUN ROAD, JIANGCHENG DISTRICT, YANGJIANG CITY, GUANGDONG PROVINCE, CHINA</p>
+                    <p class="foot-txt">YANGJIANG SUNSHINE HOUSEWARE CO.,LTD.</p>
+                    <p class="foot-txt">TEL: 86-662-3227699<span>E-MAIL: angel@yj-sunshine.com </span><span>FAX:
+                            86-662-3227655</span></p>
+                    <p class="foot-txt"> NO. 21 BAIYUN ROAD, JIANGCHENG DISTRICT, YANGJIANG CITY, GUANGDONG PROVINCE,
+                        CHINA</p>
                     <p class="foot-txt"> Copyright ©2019-2020 SUNSHINE . ALL RIGHTS RESERVER</p>
                 </div>
                 <div class="col-lg-2 col-md-2 col-xs-12 tac">
                     <img src="img/wechat.jpg" alt="">
                 </div>
             </div>
-        </div> 
+        </div>
     </footer>
     <!-- Footer Area End -->
 
