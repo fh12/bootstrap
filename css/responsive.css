@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  .header-area {min-height: 640px;}
+  .bg-01 {min-height: 640px;}
   .nav-wrap{height: 190px;}
   .nav ul li a{font-size: 10px;}
   .nav ul li{width: 10%;}
@@ -21,8 +21,11 @@
   .img-box{width: 300px;height: 430px;}
   .foot-txt{margin-top: 0;}
   .nav ul li a{font-size: 16px;}
-  .nav ul li{width: 13%;}
+  .nav ul li{width: 13.8%;}
   .index-sec4{height: 550px;}
+  .p-tags{font-size: 13px;width: 160px;height: 64px;}
+  .bg-03{background: url('../img/trade-bg.jpg') no-repeat center center;background-size: contain;min-height: 430px;}
+  .bg-05{min-height: 420px;}
 }
 @media (min-width: 1920px) {
   
