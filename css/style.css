@@ -150,7 +150,7 @@ ul li{list-style: none;}
 .pro-dec{margin-top: 30px;font-size: 12px;}
 
 /* catalogue.html */
-.bg-02{background: url('../img/cate-bg.jpg') no-repeat center top;}
+.bg-06{background: url('../img/cate-bg.jpg') no-repeat center top;}
 .cata-sec1{padding: 40px 0;}
 .cata-time{height: 62px;line-height: 62px;font-weight: bolder;color: #ccd0d1;font-size: 30px;border-bottom: 1px solid #d6d6d9}
 .img-box.cataImg{width: 220px;height: 300px;margin:20px auto;-webkit-transition: all .4s; -o-transition: all .4s;transition: all .5s;cursor: pointer;}
