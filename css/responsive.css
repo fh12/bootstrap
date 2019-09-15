@@ -1,20 +1,24 @@
 @media (min-width: 768px) {
+  .diyImg img{width: 210px;height: 210px;}
   .bg-01 {min-height: 640px;}
   .nav-wrap{height: 190px;}
   .nav ul li a{font-size: 10px;}
   .nav ul li{width: 10%;}
   .index-sec1{height: 355px;}
-  .index-sec3 img{width: 60%;margin-top: 20px;}
   .index-sec4{height: 350px;}
   .aboutus-img{margin-top: 0}
+  .index-txt p{font-size: 14px;height: auto;}
+  .index-sec3 img{width: 190px;}
   .cntl-state:nth-child(2n+2) .cntl-icon::before{left: 0;}
+  .proImg{height: 220px;}
+  .pro-dec{font-size: 12px;}
 }
 @media (min-width: 992px) {
   .index-sec1{height: 355px;}
   .footer-area{height: 249px;}
   .nav ul li a{font-size: 14px;}
   .nav ul li{width: 12%;}
-  .index-sec3 img{width: 100%;margin-top: 40px}
+  /* .index-sec3 img{width: 100%;margin-top: 40px} */
   .index-sec4{height: 450px;}
 }
 @media (min-width: 1200px) {
