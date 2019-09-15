@@ -14,6 +14,7 @@
   <!-- All css here -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery-rebox.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -93,7 +94,14 @@
             <div class="cata-time tar">JUNE 2019</div>
           </div>
           <div class="col-sm-4 col-sm-offset-1 col-xs-12">
-            <div class="img-box cataImg"><img src="img/index-01.jpg" alt=""></div>
+            <div class="img-box cataImg">
+              <div id="gallery1" class="gallery">
+                <a href="img/sample_a.jpg" title="Caption for image A"><img src="img/index-01.jpg"></a>
+                <a href="img/sample_b.jpg" title="Caption for image B"><img src="img/index-01.jpg"></a>
+                <a href="img/sample_c.jpg" title="Caption for image C"><img src="img/index-01.jpg"></a>
+                <a href="img/sample_d.jpg" title="Caption for image D"><img src="img/index-01.jpg"></a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -103,7 +111,14 @@
             <div class="cata-time tar">JUNE 2019</div>
           </div>
           <div class="col-sm-4 col-sm-offset-1 col-xs-12">
-            <div class="img-box cataImg"><img src="img/index-01.jpg" alt=""></div>
+            <div class="img-box cataImg">
+              <div id="gallery2" class="gallery">
+                <a href="img/sample_a.jpg" title="Caption for image A"><img src="img/index-01.jpg"></a>
+                <a href="img/sample_b.jpg" title="Caption for image B"><img src="img/index-01.jpg"></a>
+                <a href="img/sample_c.jpg" title="Caption for image C"><img src="img/index-01.jpg"></a>
+                <a href="img/sample_d.jpg" title="Caption for image D"><img src="img/index-01.jpg"></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -141,6 +156,11 @@
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+	<script src="js/jquery-rebox.js"></script>
+	<script>
+		$('#gallery1').rebox({ selector: 'a' });
+		$('#gallery2').rebox({ selector: 'a' });
+	</script>
 </body>
 
 </html>

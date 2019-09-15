@@ -6,6 +6,8 @@
   .index-sec1{height: 355px;}
   .index-sec3 img{width: 60%;margin-top: 20px;}
   .index-sec4{height: 350px;}
+  .aboutus-img{margin-top: 0}
+  .cntl-state:nth-child(2n+2) .cntl-icon::before{left: 0;}
 }
 @media (min-width: 992px) {
   .index-sec1{height: 355px;}
@@ -24,9 +26,7 @@
   .nav ul li{width: 13.8%;}
   .index-sec4{height: 550px;}
   .p-tags{font-size: 13px;width: 160px;height: 64px;}
+  .bg-02{padding-bottom: 10px;}
   .bg-03{background: url('../img/trade-bg.jpg') no-repeat center center;background-size: contain;min-height: 430px;}
   .bg-05{min-height: 420px;}
-}
-@media (min-width: 1920px) {
-  
 }

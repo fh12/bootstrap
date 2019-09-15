@@ -14,6 +14,7 @@
 	<!-- All css here -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery-rebox.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
@@ -73,7 +74,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="banner tac">
+		<div class="banner tac wow bounceInLeft">
 			<div><img src="img/banner-text.png" alt="" width="60%" style="max-width: 680px"></div>
 			<div class="mt30 buttonfx btn-green"><a class="shutter-in-horizontal green-border-2" href="#">VIEW PRODUCTS
 					HERE</a></div>
@@ -82,10 +83,18 @@
 	<section class="content">
 		<div class="index-sec1 hidden-xs">
 			<div class="imgView">
-				<div class="img-box"><img src="img/index-01.jpg" alt=""></div>
+				<div class="img-box">
+					<!-- <img src="img/index-01.jpg" alt=""> -->
+					<div id="gallery2" class="gallery">
+						<a href="img/sample_a.jpg" title="Caption for image A"><img src="img/index-01.jpg"></a>
+						<a href="img/sample_b.jpg" title="Caption for image B"><img src="img/index-01.jpg"></a>
+						<a href="img/sample_c.jpg" title="Caption for image C"><img src="img/index-01.jpg"></a>
+						<a href="img/sample_d.jpg" title="Caption for image D"><img src="img/index-01.jpg"></a>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="index-sec2">
+		<div class="index-sec2 wow fadeInLeftBig">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-4 col-xs-12">
@@ -110,7 +119,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="index-sec3">
+		<div class="index-sec3 wow fadeInRight">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt20">
@@ -216,7 +225,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/1.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -228,7 +237,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/2.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -240,7 +249,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/3.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -252,7 +261,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/1.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -264,7 +273,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/2.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -276,7 +285,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/3.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -288,7 +297,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/1.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -300,7 +309,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="proList">
+						<div class="proList wow fadeInLeft">
 							<div class="proImg"><a href=""><img src="img/2.jpg" alt="" width="100%"></a></div>
 							<div class="img-txt">
 								<p>A small colour television.</p>
@@ -320,7 +329,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="">
+						<div class="wow bounce">
 							<div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
 							<div class="mt20 tac"><a class="shutter-in-horizontal diyBtn" href="#">we expected to
 									see</a></div>
@@ -331,7 +340,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="">
+						<div class="wow bounce">
 							<div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
 							<div class="mt20 tac"><a class="shutter-in-horizontal diyBtn" href="#">we expected to
 									see</a></div>
@@ -342,7 +351,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="">
+						<div class="wow bounce">
 							<div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
 							<div class="mt20 tac"><a class="shutter-in-horizontal diyBtn" href="#">we expected to
 									see</a></div>
@@ -353,7 +362,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt20">
-						<div class="">
+						<div class="wow bounce">
 							<div class="diyImg"><a href=""><img src="img/diy.png" alt="" width="100%"></a></div>
 							<div class="mt20 tac"><a class="shutter-in-horizontal diyBtn" href="#">we expected to
 									see</a></div>
@@ -373,7 +382,7 @@
 
 	<!-- Blog Area End -->
 	<!-- Footer Area Start -->
-	<footer class="footer-area overlay-6">
+	<footer class="footer-area">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 tac">
@@ -398,7 +407,14 @@
 	<!-- All js here -->
 	<script src="js/jquery-1.12.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-rebox.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	var wow = new WOW();
+	wow.init();
+	$('#gallery2').rebox({ selector: 'a' });
+	</script>
 </body>
 
 </html>
