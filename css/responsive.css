@@ -10,7 +10,7 @@
   .index-txt p{font-size: 14px;height: auto;}
   .index-sec3 img{width: 190px;}
   .cntl-state:nth-child(2n+2) .cntl-icon::before{left: 0;}
-  .proImg{height: 220px;}
+  .proImg{height: 160px;}
   .pro-dec{font-size: 14px;}
   .cntl-image img{width: 22%;}
   .cntl-content {font-size: 14px;padding:0 }
@@ -18,6 +18,7 @@
 }
 @media (min-width: 992px) {
   .diyBtn{font-size: 14px;}
+  /* .pro-txt{font-size: 14px;line-height: 28px;height: 130px} */
   .img-txt{font-size: 14px;line-height: 28px;height: 130px}
   .index-sec1{height: 355px;}
   .footer-area{height: 249px;}

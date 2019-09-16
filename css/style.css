@@ -110,6 +110,7 @@ ul li{list-style: none;}
 .link-more{color: #ad7a0d;font-size: 14px;}
 .index-sec5{font-size: 12px;}
 .img-txt{padding:10px;height: 100px;overflow: hidden;font-size: 10px;}
+.pro-txt{padding:10px;height: 85px;overflow: hidden;font-size: 10px;line-height: 10px;}
 .proImg{height: 90px;overflow: hidden;}
 .proList{box-shadow: 0 1px 10px 0px rgba(0,0,0,.2);border-radius: 5px;overflow: hidden;transition: all 0.3s linear;width: 95%;margin: 10px auto}
 .proList:hover{box-shadow: 0 5px 20px 0px rgba(0,0,0,.3)}
