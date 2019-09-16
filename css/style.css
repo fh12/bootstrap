@@ -117,7 +117,7 @@ ul li{list-style: none;}
 .index-sec6{padding: 30px 0}
 .diyImg{text-align: center;}
 .diyImg img{border-radius: 50%;width: 150px;height: 150px;;margin: 10px auto}
-.diyBtn{display: inline-block;text-align: center;;width: 160px;margin: 10px auto;background: #979b9f;height: 30px;line-height: 30px;;color: #fff;border-radius: 6px}
+.diyBtn{display: inline-block;text-align: center;;width: 160px;margin: 10px auto;background: #979b9f;height: 30px;line-height: 30px;;color: #fff;border-radius: 6px;font-size: 12px;}
 
 
 /* products.html */
@@ -149,22 +149,23 @@ ul li{list-style: none;}
 .choose-bar{height: 47px;background: #656565;color: #fff;font-size: 12px;}
 .choose-bar a{display:inline-block;color: #fff;line-height: 47px;font-size: 12px;}
 .choose-bar a.active{color: #d8c45b;}
-.pro-sec1{background: url('../img/pro-bg.jpg') no-repeat right center;padding: 80px 0}
+.pro-sec1{background: url('../img/pro-bg.jpg') no-repeat 90% center;padding: 120px 0}
 .pro-sec2{padding: 40px 0}
 .pro-img{width: 100%;margin: 0 auto;max-height: 214px;}
 .pro-dec{margin-top: 30px;font-size: 10px;}
+.txt-01{line-height: 32px;}
 
 /* catalogue.html */
 .bg-06{background: url('../img/cate-bg.jpg') no-repeat center top;}
 .cata-sec1{padding: 40px 0;}
 .cata-time{height: 62px;line-height: 62px;font-weight: bolder;color: #ccd0d1;font-size: 30px;border-bottom: 1px solid #d6d6d9}
-.img-box.cataImg{width: 220px;height: 300px;margin:20px auto;-webkit-transition: all .4s; -o-transition: all .4s;transition: all .5s;cursor: pointer;}
+.img-box.cataImg{width: 320px;height: 435px;margin:20px auto;-webkit-transition: all .4s; -o-transition: all .4s;transition: all .5s;cursor: pointer;}
 .bor-bt{border-bottom: 1px solid #ccc;padding-bottom: 50px;}
 .cata-sec1 p{line-height: 30px;}
+.cata-item{padding: 45px 10px}
 
 /* trade.html */
 .bg-03{background: url('../img/trade-bg.jpg') no-repeat 100% 100%;background-size: cover;min-height: 180px;}
-.cntl-state:nth-child(2n+2) .cntl-icon::before{left: -100px;}
 
 /* news.html */
 .bg-04{min-height: 270px;background: #bcc2c5;}
