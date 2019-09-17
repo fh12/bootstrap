@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Homepage || conjoint</title>
+  <title>Sunshine</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +14,7 @@
   <!-- All css here -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/jquery-rebox.css">
+  <link rel="stylesheet" href="css/jquery-rebox.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -43,25 +43,31 @@
     <div class="nav-wrap wrapper">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-md-12 hidden-xs">
+          <div class="col-lg-12 col-md-12 hidden-md hidden-sm hidden-xs">
             <div class="nav-bar tac">
-              <a href="index.html" class="ico-home tac"><img src="img/ico-home.jpg" alt=""></a>
-              <nav class="nav">
+              <div class="nav-left">
                 <ul>
+                  <li class="ico-home"><a href="index.html" class="tac"><i class="fa fa-home"></i></a></li>
                   <li><a href="aboutus.html">ABOUT US</a></li>
                   <li><a href="products.html">PRODUCTS</a></li>
                   <li><a href="catalogue.html">CATALOGUE</a></li>
-                  <li class="logo-circle"><img src="img/logo.png" alt=""></li>
+                </ul>
+              </div>
+              <a href="" class="nav-logo">
+                <img src="img/logo.png" alt="">
+              </a>
+              <div class="nav-right">
+                <ul>
                   <li><a href="trade.html">TRADE SHOW</a></li>
                   <li><a href="news.html">NEWS CENTER</a></li>
                   <li><a href="diy.html">DIY CORNER</a></li>
                 </ul>
-              </nav>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="mobile-menu hidden-lg hidden-md hidden-sm">
+      <div class="mobile-menu hidden-lg">
         <div class="m-nav"><span class=""></span><span></span><span class=""></span></div>
         <div class="icologo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
         <ul class="menu">
@@ -89,8 +95,12 @@
       <div class="container">
         <div class="row bor-bt cata-item">
           <div class="col-sm-7 col-xs-12">
-            <p class="mt50">We are passionate about incorporating beauty into everything we do, because we believe that being surrounded by high aesthetic quality can bring joy to daily life.</p>
-            <p class="mt30">With innovative designs and thoughtful functionality, we create Kitchen Utensils and Gadgets that make your life beautiful and easier to enjoy. Our modern interpretations of classic patterns and trendy originals are destined to remain memorable across kitchens everywhere. Not only do we offer a wide selection of kitchen essentials, but we also have rave-worthy collections of chef-recommended tools.</p>
+            <p class="mt50">We are passionate about incorporating beauty into everything we do, because we believe that
+              being surrounded by high aesthetic quality can bring joy to daily life.</p>
+            <p class="mt30">With innovative designs and thoughtful functionality, we create Kitchen Utensils and Gadgets
+              that make your life beautiful and easier to enjoy. Our modern interpretations of classic patterns and
+              trendy originals are destined to remain memorable across kitchens everywhere. Not only do we offer a wide
+              selection of kitchen essentials, but we also have rave-worthy collections of chef-recommended tools.</p>
             <div class="cata-time tar">JUNE 2019</div>
           </div>
           <div class="col-sm-4 col-sm-offset-1 col-xs-12">
@@ -106,8 +116,12 @@
         </div>
         <div class="row cata-item">
           <div class="col-sm-7 col-xs-12">
-            <p class="mt50">We are passionate about incorporating beauty into everything we do, because we believe that being surrounded by high aesthetic quality can bring joy to daily life.</p>
-            <p class="mt30">With innovative designs and thoughtful functionality, we create Kitchen Utensils and Gadgets that make your life beautiful and easier to enjoy. Our modern interpretations of classic patterns and trendy originals are destined to remain memorable across kitchens everywhere. Not only do we offer a wide selection of kitchen essentials, but we also have rave-worthy collections of chef-recommended tools.</p>
+            <p class="mt50">We are passionate about incorporating beauty into everything we do, because we believe that
+              being surrounded by high aesthetic quality can bring joy to daily life.</p>
+            <p class="mt30">With innovative designs and thoughtful functionality, we create Kitchen Utensils and Gadgets
+              that make your life beautiful and easier to enjoy. Our modern interpretations of classic patterns and
+              trendy originals are destined to remain memorable across kitchens everywhere. Not only do we offer a wide
+              selection of kitchen essentials, but we also have rave-worthy collections of chef-recommended tools.</p>
             <div class="cata-time tar">JUNE 2019</div>
           </div>
           <div class="col-sm-4 col-sm-offset-1 col-xs-12">
@@ -156,11 +170,15 @@
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-	<script src="js/jquery-rebox.js"></script>
-	<script>
-		$('#gallery1').rebox({ selector: 'a' });
-		$('#gallery2').rebox({ selector: 'a' });
-	</script>
+  <script src="js/jquery-rebox.js"></script>
+  <script>
+    $('#gallery1').rebox({
+      selector: 'a'
+    });
+    $('#gallery2').rebox({
+      selector: 'a'
+    });
+  </script>
 </body>
 
 </html>

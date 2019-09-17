@@ -1,9 +1,11 @@
 @media (min-width: 768px) {
+  .aboutus-text{width: 52%;}
+  .aboutus-image { width: 48%; margin-top: 0;}
+  .aboutus-right img{ width: 263px;height: 208px;}
   .diyImg img{width: 210px;height: 210px;}
-  .bg-01 {min-height: 640px;}
+  .bg-01 {min-height: 690px;}
   .nav-wrap{height: 190px;}
-  .nav ul li a{font-size: 10px;}
-  .nav ul li{width: 10%;}
+  .txt-01{line-height: 22px;font-size: 14px;}
   .index-sec1{height: 355px;}
   .index-sec4{height: 350px;}
   .aboutus-img{margin-top: 0}
@@ -17,30 +19,39 @@
   .cntl-icon::before{width: 90px; }
 }
 @media (min-width: 992px) {
+  .tit-tag{width: 360px;font-size: 32px;}
   .diyBtn{font-size: 14px;}
-  /* .pro-txt{font-size: 14px;line-height: 28px;height: 130px} */
-  .img-txt{font-size: 14px;line-height: 28px;height: 130px}
+  .img-txt{font-size: 16px;line-height: 28px;height: 130px}
   .index-sec1{height: 355px;}
   .footer-area{height: 249px;}
-  .nav ul li a{font-size: 14px;}
-  .nav ul li{width: 12%;}
+  /* .nav ul li a{font-size: 14px;}
+  .nav ul li{width: 12%;} */
   .index-sec4{height: 450px;}
   .cntl-content {font-size: 16px; }
   .cntl-content h4 {font-size: 22px; }
 }
 @media (min-width: 1200px) {
+  .txt-01{line-height: 32px;font-size: 16px;}
+  .nav li.logo-circle{width: 160px;height: 160px;}
   .index-sec1{height: 495px;}
   .imgView{width: 950px;height: 480px;}
   .img-box{width: 300px;height: 430px;}
-  .foot-txt{margin-top: 0;}
-  .nav ul li a{font-size: 16px;}
-  .nav ul li{width: 13.8%;}
-  .index-sec4{height: 550px;}
+  .foot-txt{margin-top: 0;font-size: 14px;}
+  /* .nav ul li a{font-size: 16px;}
+  .nav ul li{width: 13.8%;} */
+  .index-sec4{height: 689px;}
   .proImg {height: 110px;}
   .p-tags{font-size: 13px;width: 160px;height: 64px;}
   .bg-02{padding-bottom: 10px;}
   .pro-dec{font-size: 16px;}
-  .bg-03{background: url('../img/trade-bg.jpg') no-repeat center center;background-size: contain;min-height: 430px;}
+  .bg-03{background: url('../img/trade-bg.jpg') no-repeat center 45px;min-height: 475px;}
   .bg-05{min-height: 420px;}
   .cntl-image img{width: 23%;}
+  .txt-02{font-size: 20px;}
+  .link-more{font-size: 20px;}
+}
+@media (min-width: 1440px) {
+  .mw1440{max-width: 1440px;}
+  .proImg {height: 150px;}
+  .pro-txt{height: 98px;}
 }

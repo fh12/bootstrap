@@ -103,7 +103,7 @@
 
 .cntl-image {
 	opacity:0;
-	width: 42%;
+	/* width: 42%; */
 	padding: 2% 0 2% 0;
 }
 .cntl-image img{
@@ -114,9 +114,9 @@
 .cntl-image img:first-child{
 	margin-left: 0;
 }
-.cntl-state:nth-child(2n+1) .cntl-image {
+/* .cntl-state:nth-child(2n+1) .cntl-image {
 	float:right;
-}
+} */
 
 .cntl-content h4 {
 	font-size:16px;
@@ -171,7 +171,7 @@ animations
 	}
 
 	.cntl-image {
-		width:80%;
+		width:100%;
 	}
 
 	.cntl-state:nth-child(2n+1) .cntl-image {
